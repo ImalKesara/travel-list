@@ -33,6 +33,7 @@ const Form = () => {
     setDescription("");
     setNumber("");
   };
+  //useState we cant use props becuase not a children or sibiling component to component
 
   return (
     <form className="add-form" onSubmit={handleSubmit}>
